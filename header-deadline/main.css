@@ -4,3 +4,143 @@
     line-height: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    background: url(1.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.header{
+    background: rgba(0, 0, 0, 0.7);
+    width: 93%;
+    margin-top: 50px;
+    height: 60px;
+    border-radius: 80px 0;
+    position: fixed;
+    border: 1px solid yellow;
+}
+
+.header li{
+    display: inline;
+    color: yellow;
+    font-size: 16px;   
+    line-height: 60px;
+    margin: 0 20px;
+    margin-left: 36px;
+}
+.header li:hover{
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+}
+.header #h-important{
+    font-size: 20px;
+    background-color: yellow;
+    color: black;
+    letter-spacing: 8px;
+    text-decoration-line: underline ;  
+}
+.header #h-important:hover{
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 162px;
+}
+.content .content-left{
+    width: 43%;
+}
+
+.content .heading{
+    display: inline-block;
+    padding-bottom: 46px;
+}
+.content h4{
+    display: inline-block;
+    color: white;
+    font-size: 46px;
+}
+.content h3{
+    display: inline-block;
+    font-size: 79px;
+    color: yellow;
+}
+.content .container{
+    text-align: justify;
+    letter-spacing: 2px;
+    
+}
+.content .container-1{
+    font-size: 20px;
+    color: yellow;
+    display: inline-block;
+  
+}
+.content .container-2{
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+   
+}
+.content .left-word h2{
+    font-size: 20px;
+    color: black;
+    background-color: yellow;
+    display: inline-block;
+    margin-top: 22px;
+    padding: 12px 8px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+.left-word h2:hover{
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+}
+.content .left-img{
+    padding-top: 22px;
+}
+.content .background{
+    overflow: hidden;
+    display: flex;
+}
+.content .landscape{
+    border: 2px solid yellow;
+    width: 62%;
+    
+}
+.content .motor{
+    float: left;
+    z-index: 4;
+    display: block;
+    position: absolute;
+    width: 38%;
+}
+.content .content-right{
+    float: right;
+    display: block;
+    width: 50%;
+}
+.content .content-right img{
+    width: 50%;
+    display: block;
+    float: right;
+    padding-top: 10px;
+}
+
+
+
+
+
+
