@@ -112,6 +112,7 @@ body{
 .content .img-1{
     width: 50%;
     border: 1px solid yellow;
+    box-shadow: 1px;
 }
 .content .img-2{
     width: 70%;
