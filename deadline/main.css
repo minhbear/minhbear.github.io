@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vw;
+    background-color:white
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.main .img{
+    width: 60%;
+    height: 100%;
+}
+.main .background{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.main .background img{
+    width: 100%;
+}
+.main .motor-1{
+    z-index: 2;
+    position: absolute;
+    top: 194px;
+}
+.main .motor-1 img{
+    width: 60%;
+}
+.main .motor-2{
+    z-index: 3;
+    position: absolute;
+    top: 183px;
+    left: 24px;
+}
+.main .motor-2 img{
+    width: 65%;    
+}     
+.main .motor-3{
+    z-index: 4;
+    position: absolute;
+    top: 177px;
+}
+.main .motor-3 img{
+    width: 69%;
+}
+/*login*/
+.main .login{
+    background-color: white;
+    width: 40%;
+    height: 38vw;
+}
+.main .login-heading{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 118px;
+    width: 100%;
+}
+.main .login-heading h1{
+    font-size: 30px;
+}
+.main .login-heading .input{
+    border-radius: 12px;
+    width: 10px;
+    height: 34px;
+    width: 80%;
+}
+.main .login-heading p{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main .login-heading a{
+    color: black;
+}
+.main .help{
+    display: flex;
+}
+.main .help input{
+    display: inline-block;
+    height: 20px;
+}
+.main .help h2{
+    font-size: 16px;
+}
+.main .help h3{
+    font-size: 16px;
+    text-decoration: underline;
+}
+.main .sign{
+    font-size: 18px;
+    padding: 4px 8px;
+    background-color:cornflowerblue;
+    border-radius: 16px;
+    display: inline-block;
+    float: right;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.main .login-connect{
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 74px;
+    width: 100%;
+}
+.main .login-connect p{
+   display: flex;
+   justify-content: center;
+   font-size: 24px;
+}
+.main .login-img {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.main .gg{
+    width: 9%;
+}
