@@ -3,124 +3,123 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    width: 100vw;
-    height: 100vw;
-    background-color:white
-}
 .main{
-    width: 100%;
-    height: 100%;
+    height: 752px;
+    width: 1535px;
     display: flex;
     justify-content: space-between;
 }
+/*img-background start */
 .main .img{
-    width: 60%;
-    height: 100%;
+    width: 900px;
+    height: 752px;
 }
-.main .background{
+.img .background{
+    position: absolute;
+    width: 900px;
+    height: 752px;
+    left: 0px;
+    top: 0;
     z-index: 1;
-    width: 100%;
-    height: 100%;
-    position: relative;
 }
-.main .background img{
-    width: 100%;
-}
-.main .motor-1{
+.img .motor-1{
+    left: -25px;
+    position: absolute;
     z-index: 2;
+    top: 268px;
+    width: 28%;
+}
+.img .motor-2{
     position: absolute;
-    top: 194px;
-}
-.main .motor-1 img{
-    width: 60%;
-}
-.main .motor-2{
     z-index: 3;
-    position: absolute;
-    top: 183px;
-    left: 24px;
+    top: 289px;
+    width: 31%;
+    left: 55px;
 }
-.main .motor-2 img{
-    width: 65%;    
-}     
-.main .motor-3{
+.img .motor-3{
+    position: absolute;
     z-index: 4;
-    position: absolute;
-    top: 177px;
+    top: 290px;
+    width: 47%;
 }
-.main .motor-3 img{
-    width: 69%;
-}
-/*login*/
+/*img-background-end*/
 .main .login{
-    background-color: white;
-    width: 40%;
-    height: 38vw;
+    float: right;
+    width: 635px;
+    height: 100%;
 }
-.main .login-heading{
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 118px;
-    width: 100%;
+.main .l-information{
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    margin-top: 200px;
 }
-.main .login-heading h1{
-    font-size: 30px;
+.main .login .email{
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
 }
-.main .login-heading .input{
+.main .login .email-1{
+    width: 270px;
+    border: 1px solid #ffffff;
+    height: 32px;
     border-radius: 12px;
-    width: 10px;
-    height: 34px;
-    width: 80%;
+    box-shadow: 3px 3px 3px 3px#a9a9a9;
 }
-.main .login-heading p{
-    font-size: 18px;
+.main .login .help{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.main .click{
+    display: flex;
     margin-top: 10px;
-    margin-bottom: 10px;
 }
-.main .login-heading a{
+.main .click .click-1{
+    height: 20px;
+    width: 16px;
+}
+.main .click p{
+    font-size: 18px;
+}
+.main .click a{
+    font-size: 18px;
+    margin-left: 6px;
     color: black;
 }
-.main .help{
-    display: flex;
-}
-.main .help input{
-    display: inline-block;
-    height: 20px;
-}
-.main .help h2{
-    font-size: 16px;
-}
-.main .help h3{
-    font-size: 16px;
-    text-decoration: underline;
-}
 .main .sign{
-    font-size: 18px;
-    padding: 4px 8px;
-    background-color:cornflowerblue;
-    border-radius: 16px;
-    display: inline-block;
+    color: white;
+    padding: 8px 48px;
+    font-size: 20px;
+    background: aqua;
+    display: inline;
+    border-radius: 12px;
+    position: absolute;
+    margin-top: 20px;
     float: right;
-    border: 1px solid black;
-    cursor: pointer;
+    font-weight: 900;
+    font-family: sans-serif;
+    right: 105px;
 }
-.main .login-connect{
-    padding-left: 60px;
-    padding-right: 60px;
-    margin-top: 74px;
-    width: 100%;
+.main .l-logo{
+    margin-top: 136px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
-.main .login-connect p{
-   display: flex;
-   justify-content: center;
-   font-size: 24px;
+.main .l-logo hr{
+    
 }
-.main .login-img {
+.main .l-logo p{
+    font-size: 18px;
+    padding: 0 4px;
+    text-align: center;
+   
+}
+.main .l-logo .logo-connect{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 20px;
+    margin-top: 30px;
 }
-.main .gg{
-    width: 9%;
+.main .l-logo .google{
+    width: 12%;
 }
