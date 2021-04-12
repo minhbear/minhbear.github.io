@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    width: 1600px;
+    height: 700px;
+}
+.main{
+    background-image: url(reveal-xl.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;  
+    display: flex;
+}
+.main .container{
+    width: 80%;
+    height: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+.main .container .container-left{
+    width: 45%;
+    height: 100%;
+    background-color: white;
+    border-radius: 24px;
+    display: flex;
+}
+.main .container-left .contain_1{
+    width: 90%;
+    height: 90%;
+    padding: 6% 8%;
+    margin: auto;
+}
+.main .contain_1 h1{
+    font-size: 32px;
+}
+.main .container-left .sign-up{
+    font-size: 24px;
+    margin-top: 20px;
+    display: inline-block;
+    background-color: rgb(0, 187, 255);
+    padding: 0 16px;
+    border-radius: 12px;
+}
+.main .container-left .email{
+    margin-top: 12%;
+    width: 100%;
+
+}
+.main .email .name{
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 16px;
+}
+.main .name .username{
+    width: 45%;
+    height: 40px;
+    border-radius: 8px;
+}
+::-webkit-input-placeholder {
+    font-size: 12px;
+    padding-left: 16px ;
+ }
+ .main .container-left .information{
+     width: 100%;
+     margin: 10px 0;
+     height: 40px;
+ }
+ .main .container-left .note{
+     width: 100%;
+ 
+    
+ }
+ .main .note .checkbox{
+     display: inline-block;
+ }
+ .main .note .p{
+    display: inline-block;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
